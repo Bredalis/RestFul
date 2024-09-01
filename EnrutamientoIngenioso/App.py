@@ -14,7 +14,7 @@ class TodoSimple(Resource):
 
 	# Actualizar la bddd
 	def put(self, todo_id):
-		todos[todo_id] = request.form["data"]
+		todos[todo_id] = request.json["data"]
 		return {todo_id: todos[todo_id]}
 
 api.add_resource(TodoSimple, "/<string:todo_id>")

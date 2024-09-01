@@ -30,7 +30,7 @@ class TodoResource(Resource):
         
         return {todo_id: task}, 201  # Devuelve el todo creado y un código de estado 201
 
-# Agregar ruta a la API con el parámetro `todo_id`
+# Agregar ruta a la API con el parámetro todo_id
 api.add_resource(TodoResource, "/todos/<string:todo_id>")
 
 if __name__ == "__main__":

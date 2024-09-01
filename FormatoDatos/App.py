@@ -39,8 +39,8 @@ class FormatoDeDatos(Resource):
 
 	def get(self):
 		"""
-		Devuelve los datos como en formato JSON 
-		o como un string
+		Devuelve los datos en formato JSON 
+		o string
 		"""
 
 		tipo_formato = request.args.get("format", "json")
