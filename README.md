@@ -48,30 +48,13 @@ Para utilizar RestFul en tu proyecto, sigue estos pasos:
 
 3. 🌐 Define tus recursos y rutas en la aplicación Flask para manejar diferentes métodos HTTP como GET, POST, PUT y DELETE.
 
-  ```
-    Comandos para trabajar con RestFul (API Rest) de Flask
-    
-    Para ver los datos en formato json en la pagina web, primero
-    debes ejecutar estos comandos (Realizarlos en la terminal)
-  
-    Obtener los recursos:
-    	curl http://localhost:5000/NombreDeLaRuta
-    
-    Actualizar recursos:
-    	curl -X PUT -H "Content-Type: application/json" -d "{\"1\": \"Old task\"}" http://localhost:5000/NombreDeLaRuta/DatoID
-    
-    Agregar un nuevo dato:
-    	curl -X POST -H "Content-Type: application/json" -d "{\"data\": \"New data\"}" http://127.0.0.1:5000/NombreDeLaRuta
-    
-    Eliminar un dato:
-    	curl -X DELETE http://127.0.0.1:5000/NombreDeLaRuta/DatoID
-    
-    Ver datos en formato texto:
-    	curl http://localhost:5000/NombreDeLaRuta?format=text
-  ```
+4. 📁 Mira este archivo para ver los comandos para ejecutar los programas a traves de la terminal:
+   ```
+    https://github.com/Bredalis/Commands/blob/master/RestFul.txt
+   ```
+      
+5. 🚀 Ejecuta tu aplicación Flask y observa cómo RestFul maneja las solicitudes de tu API de manera eficiente.
    
-4. 🚀 Ejecuta tu aplicación Flask y observa cómo RestFul maneja las solicitudes de tu API de manera eficiente.
-
 <br>
 
 ## Licencia 📜
